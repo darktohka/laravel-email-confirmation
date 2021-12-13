@@ -1,6 +1,6 @@
 <?php
 
-namespace Bestmomo\LaravelEmailConfirmation\Commands;
+namespace Darktohka\LaravelEmailConfirmation\Commands;
 
 use Illuminate\Console\Command;
 
