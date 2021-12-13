@@ -1,5 +1,5 @@
 {
-  "name": "Darktohka/laravel-email-confirmation",
+  "name": "darktohka/laravel-email-confirmation",
   "description": "Email address confirmation with Laravel (fork)",
   "homepage": "http://github.com/darktohka/laravel-email-confirmation",
   "license": "MIT",
