@@ -1,9 +1,14 @@
 {
-  "name": "bestmomo/laravel-email-confirmation",
-  "description": "Email address confirmation with Laravel",
-  "homepage": "http://github.com/laravel-email-confirmation",
+  "name": "Darktohka/laravel-email-confirmation",
+  "description": "Email address confirmation with Laravel (fork)",
+  "homepage": "http://github.com/darktohka/laravel-email-confirmation",
   "license": "MIT",
   "authors": [
+    {
+      "name": "darktohka",
+      "email": "daniel@tohka.us",
+      "homepage":"https://tohka.us"
+    },
     {
       "name": "Bestmomo",
       "email": "grandheretique@free.fr",
@@ -11,18 +16,17 @@
     }
   ],
   "require": {
-    "php": ">=5.6.4",
-    "illuminate/support": "~5.4"
+    "php": ">=8.1"
   },
   "autoload": {
     "psr-4": {
-      "Bestmomo\\LaravelEmailConfirmation\\": "src/"
+      "Darktohka\\LaravelEmailConfirmation\\": "src/"
     }
   },
   "extra": {
       "laravel": {
           "providers": [
-              "Bestmomo\\LaravelEmailConfirmation\\ServiceProvider"
+              "Darktohka\\LaravelEmailConfirmation\\ServiceProvider"
           ]
       }
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bestmomo\LaravelEmailConfirmation\Notifications;
+namespace Darktohka\LaravelEmailConfirmation\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;

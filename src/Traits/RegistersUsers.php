@@ -1,11 +1,11 @@
 <?php
 
-namespace Bestmomo\LaravelEmailConfirmation\Traits;
+namespace Darktohka\LaravelEmailConfirmation\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Foundation\Auth\RegistersUsers as BaseRegistersUsers;
-use Bestmomo\LaravelEmailConfirmation\Notifications\ConfirmEmail;
+use Darktohka\LaravelEmailConfirmation\Notifications\ConfirmEmail;
 use Illuminate\Console\DetectsApplicationNamespace;
 
 trait RegistersUsers

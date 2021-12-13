@@ -1,6 +1,6 @@
 <?php
 
-namespace Bestmomo\LaravelEmailConfirmation\Traits;
+namespace Darktohka\LaravelEmailConfirmation\Traits;
 
 use Illuminate\Foundation\Auth\ResetsPasswords as BaseResetsPasswords;
 

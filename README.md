@@ -1,6 +1,6 @@
 ## Laravel Email Confirmation ##
 
-This package is to add email confirmation to Laravel 5.4 or 5.5 project.
+This package is to add email confirmation to Laravel 8.x project.
 
 It should be used after `php artisan make:auth` command but can also be added to existing project.
 
@@ -22,17 +22,17 @@ There is [a french presentation](http://laravel.sillo.org/ajouter-la-confirmatio
 
 Add package to your composer.json file :
 ```
-    composer require bestmomo/laravel-email-confirmation
+    composer require darktohka/laravel-email-confirmation
 ```
 
 For Laravel 5.4 add service provider to `config/app.php` (with Laravel 5.5 there is the package discovery):
 ```
-    Bestmomo\LaravelEmailConfirmation\ServiceProvider::class,
+    Darktohka\LaravelEmailConfirmation\ServiceProvider::class,
 ```
 
 From V1.1.5 you must publish the migration with:
 ```
-    php artisan vendor:publish --provider="Bestmomo\LaravelEmailConfirmation\ServiceProvider" --tag="confirmation:migrations"
+    php artisan vendor:publish --provider="Darktohka\LaravelEmailConfirmation\ServiceProvider" --tag="confirmation:migrations"
 ```
 
 Run the published migration:
@@ -42,17 +42,17 @@ Run the published migration:
 
 Change trait reference in `LoginController` :
 ```
-    use Bestmomo\LaravelEmailConfirmation\Traits\AuthenticatesUsers;
+    use Darktohka\LaravelEmailConfirmation\Traits\AuthenticatesUsers;
 ```
 
 Change trait reference in `RegisterController` :
 ```
-    use Bestmomo\LaravelEmailConfirmation\Traits\RegistersUsers;
+    use Darktohka\LaravelEmailConfirmation\Traits\RegistersUsers;
 ```
 
 Change trait reference in `ResetPasswordController`:
 ```
-    use Bestmomo\LaravelEmailConfirmation\Traits\ResetsPasswords;
+    use Darktohka\LaravelEmailConfirmation\Traits\ResetsPasswords;
 ```
 
 ### Publish ###

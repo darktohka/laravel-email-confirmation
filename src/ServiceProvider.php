@@ -1,6 +1,6 @@
 <?php
 
-namespace Bestmomo\LaravelEmailConfirmation;
+namespace Darktohka\LaravelEmailConfirmation;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Illuminate\Console\DetectsApplicationNamespace;
