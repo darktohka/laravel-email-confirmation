@@ -19,7 +19,7 @@ class ServiceProvider extends BaseServiceProvider
         // Routes
         $this->app->router->group([
                 'middleware' => 'web',
-                'namespace' => $this->$app->getNamespace() . 'Http\Controllers'
+                'namespace' => $this->app->getNamespace() . 'Http\Controllers'
             ], function() use($packagePath) {
                 require $packagePath . 'routes/web.php';
             }

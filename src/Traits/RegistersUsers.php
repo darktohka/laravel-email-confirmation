@@ -85,7 +85,7 @@ trait RegistersUsers
      */
     protected function notifyUser($user)
     {
-        $class = $this->$app->getNamespace() . 'Notifications\ConfirmEmail';
+        $class = $this->app->getNamespace() . 'Notifications\ConfirmEmail';
 
         if (!class_exists($class)) {
             $class = ConfirmEmail::class;
